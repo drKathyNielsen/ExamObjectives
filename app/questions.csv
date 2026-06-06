@@ -1,0 +1,145 @@
+version,questionNumber,questionType,objective
+A,1,SELECT_ALL,Can identify properties of heap and stack memory.
+A,2,SELECT_ALL,Identify correct state of the stack and heap memory at various points in a program’s execution
+A,3,SELECT_ONE,evaluate the output of code snippet where pass by value and the copy goes out of scope
+A,4,SELECT_ALL,Identify correct test cases for a Queue implementation function
+A,5,SELECT_ALL,"Evaluate code that allocates variables heap memory management and identify dangling pointers and memory leaks,"
+A,6,SELECT_ONE,Evaluate code that uses a passed pointer to change underlying value
+A,7,SELECT_ALL,Evaluate code that passes a pointer by reference.
+A,8,TRUE_FALSE,Identify LIFO / FIFO behavior in example scenarios.
+A,9,TRUE_FALSE,Identify the difference between pass by reference \& pass by value.
+A,10,SELECT_ONE,Identify the appropriate data structure (LIFO vs. FIFO) given a scenario.
+A,11,TRUE_FALSE,Apply engineering trade off reasoning to use cases.
+A,12,TRUE_FALSE,List similarities and differences between the stack and heap memory allocation schemes.
+A,13,TRUE_FALSE,Identify correct statements about the purpose and performance benefits of self-balancing trees
+A,14,TRUE_FALSE,identify difference between references and pointers.
+A,15,TRUE_FALSE,Identify the Difference between DFS and BFS in terms of use case
+A,16,TRUE_FALSE,Recognize the correct order of steps in heap operations of insert and delete.
+A,17,SELECT_ONE,Predict the final placement of a key in a hash table using a specified collision resolution strategy
+A,18,TRUE_FALSE,Recognize the proper order of a BFS or DFS Traversal of a sample graph
+A,19,TRUE_FALSE,Identify min/max heap
+A,20,TRUE_FALSE,Identify Hash function characteristics important for implementing hash map
+A,21,TRUE_FALSE,Recognize true statements about Abstract Data Types.
+A,22,TRUE_FALSE,Can recognize the tradeoffs of open addressing and chaining
+A,23,TRUE_FALSE,Can identify Properties of a priority queue
+A,24,TRUE_FALSE,Understanding of Traversal recursive code
+A,25,TRUE_FALSE,Identify time complexity of operations on skewed and balanced binary search trees
+A,26,TRUE_FALSE,Analyze how different insertion orders affect a BST structure and height of a binary search tree.
+A,27,SELECT_ALL,"tree node deletion code: Analyze how BST operations behave for various cases e.g., empty tree, single node, two children."
+A,28,SELECT_ALL,Test cases for tree delete
+A,29,SELECT_ALL,Trace the steps of a Heapify operation
+A,30,SELECT_ALL,Identify necessary steps in BFS or DFS code.
+A,31,SELECT_ALL,Identify the correct order of selected (finalized) nodes in Dijkstras algorithm
+A,32,SELECT_ALL,Engineering trade-offs of priority queue vs simple scan in Dijkstra's
+A,33,SELECT_ONE,Heap sort
+A,34,SELECT_ONE,Select the correct Time Complexity for given code
+A,35,SELECT_ONE,Identify correct rotation to apply given an unbalanced tree
+A,36,SELECT_ALL,Identify base case of recursive function
+B,1,SELECT_ALL,Identify correct test cases for a Queue implementation function
+B,2,SELECT_ONE,Evaluate code that uses a passed pointer to change underlying value
+B,3,SELECT_ALL,Can identify properties of heap and stack memory.
+B,4,SELECT_ALL,Identify correct diagrams of the stack and heap memory at various points in a program’s execution
+B,5,SELECT_ALL,Evaluate code that allocates variables heap memory management and identify dangling pointers and memory leaks
+B,6,SELECT_ALL,Evaluate code that passes a pointer by reference.
+B,7,SELECT_ONE,evaluate the output of code snippet where pass by value and the copy goes out of scope
+B,8,TRUE_FALSE,List similarities and differences between the stack and heap memory allocation schemes.
+B,9,TRUE_FALSE,Apply engineering trade off reasoning to use cases.
+B,10,TRUE_FALSE,Identify the difference between pass by reference \& pass by value.
+B,11,SELECT_ONE,Identify the appropriate data structure (LIFO vs. FIFO) given a scenario.
+B,12,TRUE_FALSE,Identify LIFO or FIFO behavior in example scenarios.
+B,13,TRUE_FALSE,Recognize the proper order of a BFS or DFS Traversal of a sample graph
+B,14,TRUE_FALSE,Identify difference between references and pointers.
+B,15,TRUE_FALSE,Identify the Difference between DFS and BFS in terms of use case
+B,16,TRUE_FALSE,Can identify Properties of a priority queue
+B,17,TRUE_FALSE,Understanding of Traversal recursive code
+B,18,TRUE_FALSE,Recognize true statements about Abstract Data Types.
+B,19,TRUE_FALSE,Identify min/max heap
+B,20,TRUE_FALSE,Can recognize the tradeoffs of open addressing and chaining
+B,21,TRUE_FALSE,Recognize the correct order of steps in heap operations of insert and delete.
+B,22,TRUE_FALSE,Identify correct statements about the purpose and performance benefits of self-balancing trees
+B,23,SELECT_ONE,Predict the final placement of a key in a hash table using a specified collision resolution strategy
+B,24,TRUE_FALSE,Analyze how different insertion orders affect a BST structure and height of a binary search tree.
+B,25,TRUE_FALSE,Identify Hash function characteristics important for implementing hash map
+B,26,TRUE_FALSE,Identify time complexity of operations on skewed and balanced binary search trees
+B,27,SELECT_ONE,Identify correct rotation to apply given an unbalanced tree
+B,28,SELECT_ONE,Time Complexity
+B,29,SELECT_ALL,tree node deletion
+B,30,SELECT_ALL,Test cases for tree delete
+B,31,SELECT_ALL,Find a problem in BFS or DFS code.
+B,32,SELECT_ALL,Predict the order nodes are finalized in Dijkstras algorithm
+B,33,SELECT_ALL,Trace the steps of a Heapify operation
+B,34,SELECT_ALL,Identify base case of recursive function
+B,35,SELECT_ONE,Heap sort
+B,36,SELECT_ALL,Engineering trade-offs of priority queue vs simple scan in Dijkstra's
+D,1,SELECT_ONE,Evaluate code that uses a passed pointer to change underlying value
+D,2,SELECT_ALL,Can identify properties of heap and stack memory.
+D,3,SELECT_ALL,Evaluate code that allocates variables heap memory management and identify dangling pointers and memory leaks
+D,4,SELECT_ALL,Identify correct diagrams of the stack and heap memory at various points in a program’s execution
+D,5,SELECT_ALL,Evaluate code that passes a pointer by reference.
+D,6,SELECT_ONE,evaluate the output of code snippet where pass by value and the copy goes out of scope
+D,7,SELECT_ALL,Identify correct test cases for a Queue implementation function
+D,8,TRUE_FALSE,List similarities and differences between the stack and heap memory allocation schemes.
+D,9,SELECT_ONE,Identify the appropriate data structure (LIFO vs. FIFO) given a scenario.
+D,10,TRUE_FALSE,Identify LIFO or FIFO behavior in example scenarios.
+D,11,TRUE_FALSE,Apply engineering trade off reasoning to use cases.
+D,12,TRUE_FALSE,Identify the difference between pass by reference \& pass by value.
+D,13,TRUE_FALSE,Recognize the proper order of a BFS or DFS Traversal of a sample graph
+D,14,TRUE_FALSE,Identify difference between references and pointers.
+D,15,TRUE_FALSE,Identify the Difference between DFS and BFS in terms of use case
+D,16,TRUE_FALSE,Understanding of Traversal recursive code
+D,17,TRUE_FALSE,Can recognize the tradeoffs of open addressing and chaining
+D,18,TRUE_FALSE,Recognize true statements about Abstract Data Types.
+D,19,TRUE_FALSE,Can identify Properties of a priority queue
+D,20,TRUE_FALSE,Identify min/max heap
+D,21,TRUE_FALSE,Recognize the correct order of steps in heap operations of insert and delete.
+D,22,TRUE_FALSE,Identify time complexity of operations on skewed and balanced binary search trees
+D,23,TRUE_FALSE,Identify correct statements about the purpose and performance benefits of self-balancing trees
+D,24,SELECT_ONE,Predict the final placement of a key in a hash table using a specified collision resolution strategy
+D,25,TRUE_FALSE,Analyze how different insertion orders affect a BST structure and height of a binary search tree.
+D,26,TRUE_FALSE,Identify Hash function characteristics important for implementing hash map
+D,27,SELECT_ONE,Time Complexity
+D,28,SELECT_ONE,Identify correct rotation to apply given an unbalanced tree
+D,29,SELECT_ALL,Test cases for tree delete
+D,30,SELECT_ALL,Predict the order nodes are finalized in Dijkstras algorithm
+D,31,SELECT_ALL,Find a problem in BFS or DFS code.
+D,32,SELECT_ALL,Identify base case of recursive function
+D,33,SELECT_ALL,Engineering trade-offs of priority queue vs simple scan in Dijkstra's
+D,34,SELECT_ALL,tree node deletion
+D,35,SELECT_ONE,Heap sort
+D,36,SELECT_ALL,Trace the steps of a Heapify operation
+C,1,SELECT_ALL,Can identify properties of heap and stack memory.
+C,2,SELECT_ALL,Identify correct state of the stack and heap memory at various points in a program’s execution
+C,3,SELECT_ALL,Identify correct test cases for a Queue implementation function
+C,4,SELECT_ONE,evaluate the output of code snippet where pass by value and the copy goes out of scope
+C,5,SELECT_ALL,"Evaluate code that allocates variables heap memory management and identify dangling pointers and memory leaks,"
+C,6,SELECT_ONE,Evaluate code that uses a passed pointer to change underlying value
+C,7,SELECT_ALL,Evaluate code that passes a pointer by reference.
+C,8,TRUE_FALSE,Identify LIFO / FIFO behavior in example scenarios.
+C,9,TRUE_FALSE,Identify the difference between pass by reference \& pass by value.
+C,10,TRUE_FALSE,List similarities and differences between the stack and heap memory allocation schemes.
+C,11,TRUE_FALSE,Identify correct statements about the purpose and performance benefits of self-balancing trees
+C,12,TRUE_FALSE,identify difference between references and pointers.
+C,13,TRUE_FALSE,Identify the Difference between DFS and BFS in terms of use case
+C,14,SELECT_ONE,Identify the appropriate data structure (LIFO vs. FIFO) given a scenario.
+C,15,TRUE_FALSE,Apply engineering trade off reasoning to use cases.
+C,16,TRUE_FALSE,Recognize the correct order of steps in heap operations of insert and delete.
+C,17,SELECT_ONE,Predict the final placement of a key in a hash table using a specified collision resolution strategy
+C,18,TRUE_FALSE,Recognize the proper order of a BFS or DFS Traversal of a sample graph
+C,19,TRUE_FALSE,Identify min/max heap
+C,20,TRUE_FALSE,Recognize true statements about Abstract Data Types.
+C,21,TRUE_FALSE,Can recognize the tradeoffs of open addressing and chaining
+C,22,TRUE_FALSE,Identify Hash function characteristics important for implementing hash map
+C,23,TRUE_FALSE,Can identify Properties of a priority queue
+C,24,TRUE_FALSE,Understanding of Traversal recursive code
+C,25,TRUE_FALSE,Identify time complexity of operations on skewed and balanced binary search trees
+C,26,TRUE_FALSE,Analyze how different insertion orders affect a BST structure and height of a binary search tree.
+C,27,SELECT_ALL,tree node deletion
+C,28,SELECT_ALL,Trace the steps of a Heapify operation
+C,29,SELECT_ALL,Test cases for tree delete
+C,30,SELECT_ALL,Identify necessary steps in BFS or DFS code.
+C,31,SELECT_ALL,Identify the correct order of selected (finalized) nodes in Dijkstras algorithm
+C,32,SELECT_ONE,Identify correct rotation to apply given an unbalanced tree
+C,33,SELECT_ALL,Engineering trade-offs of priority queue vs simple scan in Dijkstra's
+C,34,SELECT_ONE,Heap sort
+C,35,SELECT_ONE,Select the correct Time Complexity for given code
+C,36,SELECT_ALL,Identify base case of recursive function
