@@ -15,18 +15,21 @@ public class ResultsGridParser {
     public static ResultsGrid parse(String csvContent) {
         List<String> lines = csvContent.lines().toList();
 
-        ColumnLayout layout = ColumnLayout.from(parseLine(lines.get(0)));
+        String[] header = parseLine(lines.get(0));
+        ColumnLayout layout = ColumnLayout.from(header);
 
         List<AnswerKeyEntry> answerKeys = new ArrayList<>();
         List<StudentRecord> students = new ArrayList<>();
         List<StudentAnswer> studentAnswers = new ArrayList<>();
 
-        for (String line : lines.subList(1, lines.size())) {
+        for (int rowNumber = 1; rowNumber < lines.size(); rowNumber++) {
+            String line = lines.get(rowNumber);
             if (line.isBlank()) {
                 continue;
             }
 
             String[] fields = parseLine(line);
+            warnIfExtraColumns(fields, header.length, rowNumber);
 
             if (isAnswerKeyRow(fields, layout)) {
                 answerKeys.addAll(readAnswerKeyEntries(fields, layout));
@@ -37,6 +40,13 @@ public class ResultsGridParser {
         }
 
         return new ResultsGrid(answerKeys, students, studentAnswers);
+    }
+
+    private static void warnIfExtraColumns(String[] fields, int expectedColumnCount, int rowNumber) {
+        if (fields.length > expectedColumnCount) {
+            System.out.println("Warning: row " + rowNumber + " (" + fields[0] + ") has " + fields.length
+                    + " columns, expected " + expectedColumnCount);
+        }
     }
 
     private static boolean isAnswerKeyRow(String[] fields, ColumnLayout layout) {
